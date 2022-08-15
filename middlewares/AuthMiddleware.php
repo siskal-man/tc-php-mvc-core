@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\middlewares;
+namespace tarum\phpmvc\middlewares;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use tarum\phpmvc\Application;
+use tarum\phpmvc\exception\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware
 {

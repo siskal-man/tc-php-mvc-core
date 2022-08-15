@@ -1,20 +1,20 @@
 <?php
 
-namespace app\core;
+namespace tarum\phpmvc;
 
 
-use app\core\middlewares\BaseMiddleware;
+use tarum\phpmvc\middlewares\BaseMiddleware;
 
 /**
  *
- * @package app\core
+ * @package tarum\phpmvc
  */
 class Controller
 {
     public string $layout = 'main';
     public string $action = '';
     /**
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \tarum\phpmvc\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
 

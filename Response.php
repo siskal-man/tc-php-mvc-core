@@ -1,12 +1,12 @@
 <?php 
 
-namespace app\core;
+namespace tarum\phpmvc;
 
 
 
 /**
  * 
- * @package app\core
+ * @package tarum\phpmvc
  * 
  */
 

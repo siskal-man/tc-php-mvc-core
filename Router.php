@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core;
+namespace tarum\phpmvc;
 
-use \app\core\exception\NotFoundException;
+use \tarum\phpmvc\exception\NotFoundException;
 
 /**
  *
- * @package app\core
+ * @package tarum\phpmvc
  *
  */
 class Router
@@ -17,8 +17,8 @@ class Router
 
     /**
      *
-     * @param \app\core\Request $request
-     * @param \app\core\Response $response
+     * @param \tarum\phpmvc\Request $request
+     * @param \tarum\phpmvc\Response $response
      */
     public function __construct(Request $request, Response $response)
     {
@@ -55,7 +55,7 @@ class Router
         }
 
         if (is_array($callback)) {
-            /** @var \app\core\Controller $controller */
+            /** @var \tarum\phpmvc\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

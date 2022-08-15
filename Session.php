@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace tarum\phpmvc;
 
 class Session
 {

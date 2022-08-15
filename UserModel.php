@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace tarum\phpmvc;
 
-use app\core\db\DbModel;
+use tarum\phpmvc\db\DbModel;
 
 abstract class UserModel extends DbModel
 {

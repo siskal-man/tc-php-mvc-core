@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\form;
+namespace tarum\phpmvc\form;
 
-use app\core\Model;
+use tarum\phpmvc\Model;
 
 
 class InputField extends BaseField

@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\db;
+namespace tarum\phpmvc\db;
 
-use app\core\Application;
-use app\core\Model;
+use tarum\phpmvc\Application;
+use tarum\phpmvc\Model;
 
 abstract class DbModel extends Model
 {

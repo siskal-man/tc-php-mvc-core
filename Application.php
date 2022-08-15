@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core;
-use app\core\db\Database;
-use app\core\UserModel;
+namespace tarum\phpmvc;
+use tarum\phpmvc\db\Database;
+use tarum\phpmvc\UserModel;
 use app\models\User;
 
 /**
  *
- * @package app\core
+ * @package tarum\phpmvc
  *
  */
 class Application
@@ -60,17 +60,17 @@ class Application
 
     /**
      *
-     * @return \app\core\Controller
+     * @return \tarum\phpmvc\Controller
      */
 
-    public function getController(): \app\core\Controller
+    public function getController(): \tarum\phpmvc\Controller
     {
         return $this->controller;
     }
 
     /**
      *
-     * @param \app\core\Controller $controller
+     * @param \tarum\phpmvc\Controller $controller
      */
 
     public function setController(Controller $controller): void
